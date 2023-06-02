@@ -1,9 +1,9 @@
 {
-  "name": "lib-zhangbb",
-  "version": "1.0.2",
+  "name": "lib-zhangbb-1",
+  "version": "1.0.0",
   "description": "A vue admin template with Element UI & axios & iconfont & permission control & lint",
   "author": "Pan <panfree23@gmail.com>",
-  "appGroupName": "lib-zhangbb",
+  "appGroupName": "lib-zhangbb-1",
   "main": "hel_proxy/entry.js",
   "module": "hel_proxy_es/entry.js",
   "types": "src/entrance/libTypes.ts",
