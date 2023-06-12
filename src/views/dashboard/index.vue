@@ -2,6 +2,13 @@
   <div class="dashboard-container">
     <div class="dashboard-text">name: {{ name }}4444</div>
     <el-button @click="toPath">test</el-button>
+
+    <iframe
+      id="iframe"
+      src="http://localhost:3000/main-vue2/"
+      frameborder="0"
+      style="width: 100%; height: 400px"
+    />
   </div>
 </template>
 
@@ -11,9 +18,12 @@ import { mapGetters } from 'vuex'
 export default {
   name: 'Dashboard',
   computed: {
-    ...mapGetters([
-      'name'
-    ])
+    ...mapGetters(['name'])
+  },
+  mounted() {
+    window.addEventListener('message', function(event) {
+      console.log('Received message:', event.data)
+    })
   },
   methods: {
     toPath() {
