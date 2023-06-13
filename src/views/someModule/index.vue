@@ -8,6 +8,9 @@
 <script>
 export default {
   methods: {
+    created() {
+      console.log('====someModule-index====')
+    },
     toPath() {
       this.$router.push({
         path: '/someModule/test'
