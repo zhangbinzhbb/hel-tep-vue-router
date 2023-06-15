@@ -19,6 +19,7 @@ const port = process.env.port || process.env.npm_config_port || 9528 // dev port
 
 console.log('subApp.getPublicPathOrUrl')
 console.log(subApp.getPublicPathOrUrl('http://localhost:7001'))
+console.log('subApp.externals===>', subApp.externals)
 
 // All configuration item explanations can be find in https://cli.vuejs.org/config/
 module.exports = {
