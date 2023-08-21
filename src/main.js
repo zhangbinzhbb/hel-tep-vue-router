@@ -5,6 +5,7 @@ import { LIB_NAME } from './configs/subApp'
 // import { preFetchLib } from 'hel-micro'
 
 (async function() {
+  console.log('====子应用======')
   const libProperties = await import('./entrance/libProperties')
   // 注意此处传递的是 default
   libReady(LIB_NAME, libProperties.default)

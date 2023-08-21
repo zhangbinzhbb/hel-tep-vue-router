@@ -39,7 +39,7 @@ npm publish
 export default {
   components: {
     Hamburger: defineAsyncComponent(async () => {
-      const comps = await preFetchLib("lib-zhangbb-1");
+      const comps = await preFetchLib("lib-zhangbb-component");
       return comps.Hamburger;
     }),
   },
@@ -49,10 +49,10 @@ export default {
 ### 预加载 
 原入口文件下沉，然后加载远程模块，参考 https://github.com/hel-eco/hel-demo-use-remote-vue3-comp/blob/main/src/main.ts
 ```ts
-await preFetchLib('lib-zhangbb-1')
+await preFetchLib('lib-zhangbb-component')
 ```
 
-然后安装`lib-zhangbb-1`, 其他地方可import 静态导入模块
+然后安装`lib-zhangbb-component`, 其他地方可import 静态导入模块
 ```ts
-import { Hamburger } from 'lib-zhangbb-1';
+import { Hamburger } from 'lib-zhangbb-component';
 ```

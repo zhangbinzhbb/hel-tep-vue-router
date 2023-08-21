@@ -1,9 +1,9 @@
 {
-  "name": "lib-zhangbb-1",
+  "name": "lib-zhangbb-component",
   "version": "1.0.0",
   "description": "A vue admin template with Element UI & axios & iconfont & permission control & lint",
   "author": "Pan <panfree23@gmail.com>",
-  "appGroupName": "lib-zhangbb-1",
+  "appGroupName": "lib-zhangbb-component",
   "main": "hel_proxy/entry.js",
   "module": "hel_proxy_es/entry.js",
   "types": "src/entrance/libTypes.ts",
@@ -40,7 +40,6 @@
     "rollup-plugin-typescript": "^1.0.1",
     "shx": "^0.3.4",
     "typescript": "^4.8.4",
-    "vue": "2.6.10",
     "vue-router": "3.0.6",
     "vuex": "3.1.0"
   },

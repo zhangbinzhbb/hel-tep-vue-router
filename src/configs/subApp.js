@@ -6,4 +6,4 @@
 |--------------------------------------------------------------------------
 */
 
-export const LIB_NAME = 'lib-zhangbb-1'
+export const LIB_NAME = 'lib-zhangbb-component'
