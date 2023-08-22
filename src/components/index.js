@@ -1,10 +1,12 @@
-export { default as SvgIcon } from './SvgIcon'
-export { default as Hamburger } from './Hamburger'
-export { default as Dashboard } from '@/views/dashboard'
+
+console.log(' test 123')
+// export { default as SvgIcon } from './SvgIcon'
+// export { default as Hamburger } from './Hamburger'
+// export { default as Dashboard } from '@/views/dashboard'
 export { default as SomeModule } from '@/views/someModule'
 export { default as SomeModuleTest } from '@/views/someModule/test'
 export { default as SomeModuleChild } from '@/views/someModule/child'
-export { default as App } from '../App.vue'
+// export { default as App } from '../App.vue'
 
 console.log(' test 123')
 // import loadApp from '../loadApp.js'
