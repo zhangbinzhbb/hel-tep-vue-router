@@ -3,12 +3,12 @@
     <div class="dashboard-text">name: {{ name }}4444</div>
     <el-button @click="toPath">test</el-button>
 
-    <iframe
+    <!-- <iframe
       id="iframe"
       src="http://localhost:3000/main-vue2/"
       frameborder="0"
       style="width: 100%; height: 400px"
-    />
+    /> -->
   </div>
 </template>
 

@@ -27,7 +27,6 @@
   "dependencies": {
     "axios": "0.18.1",
     "core-js": "3.6.5",
-    "element-ui": "^2.15.13",
     "hel-dev-utils": "^4.3.20",
     "hel-iso": "^4.3.4",
     "hel-lib-proxy": "^4.8.0",
