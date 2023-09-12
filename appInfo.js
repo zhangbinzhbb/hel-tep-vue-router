@@ -5,8 +5,8 @@ const pkg = require('./package.json')
 const appInfo = helDevUtils.createVueSubApp(pkg, {
   npmCdnType: 'unpkg',
   externals: {
-    vue: 'Vue',
-    'element-ui': 'ELEMENT'
+    // vue: 'Vue',
+    // 'element-ui': 'ELEMENT'
   }
 })
 

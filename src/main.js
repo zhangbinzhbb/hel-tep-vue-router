@@ -4,8 +4,7 @@ import { libReady } from 'hel-lib-proxy'
 import { LIB_NAME } from './configs/subApp'
 
 (async function() {
-  console.log('====子应用======')
-  console.log('isMasterApp()====>', isMasterApp())
+  console.log('子应用lib-zhangbb-component-vue2')
   const libProperties = await import('./entrance/libProperties')
   // 注意此处传递的是 default ，发射模块
   libReady(LIB_NAME, libProperties.default)
@@ -14,7 +13,7 @@ import { LIB_NAME } from './configs/subApp'
   // 可根据项目实际情况控制是否载入 loadApp 文件
   // 当前模块作为宿主被加载时
   if (isMasterApp()) {
-    console.log('====子应用=123=====')
+    console.log('子应用lib-zhangbb-componen-vue2 入口')
     await import('./loadApp')
   }
 }()).catch(console.error)
