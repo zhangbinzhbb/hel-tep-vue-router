@@ -30,6 +30,7 @@
     "hel-dev-utils": "^4.3.20",
     "hel-iso": "^4.3.4",
     "hel-lib-proxy": "^4.8.0",
+    "hel-micro": "^4.8.9",
     "js-cookie": "2.2.0",
     "normalize.css": "7.0.0",
     "nprogress": "0.2.0",
